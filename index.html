@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Wasteland, Utah</title>
+    
+    <link rel="stylesheet" href="ccstyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <main class="header">
+        <nav>
+            <a href="index.html"><img src="images/wlogo.png"></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact us!</a></li>   
+               </ul>
+               
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+<div class="text-box">
+    <h1>Last Bastion of Civilization</h1>
+    <p>
+        Its not perfect, but if offers protection from the mutant creatures while providing fun events to take part of.
+    </p>
+    <a href="contact.html" class="hero-btn">visit us to know more!</a>
+    
+</div>       
+    </main>
+
+<!------- Events ------>
+   
+<section class="events">
+  <h1>Events we offer!</h1>
+  <p> Gladiator combat, junk races, Shooting events</p>
+   <div class="row">
+       <div class="event-col">
+          <h3>Gladiator Combat</h3>
+           <a href="events.html"> <img src="images/glad.png" alt=""></a>
+          <p> hand to hand combat with weapon twists inside a dome of Spikes. two go in.... one comes out.</p>       
+       </div>
+        <div class="event-col">
+          <h3>Junk Races</h3>
+          <a href="events.html"> <img src="images/acar.png" alt=""></a>
+          <p> Vehicles hand made from the junk pile scraps. Will they make it across the finish line? will the explode? buy a ticket today to find out!</p>     
+       </div>
+       <div class="event-col">
+          <h3>Shooting events</h3>
+          <a href="events.html"><img src="images/sr.png" alt=""></a>
+          <p> Shooting events with leader boards! Do you want to shoot inanimate obects? we got you! Do you want to shot live targets? we got you! shoot now action questions later!</p>     
+       </div>
+       
+       
+   </div>
+    
+</section>
+  
+<!------- Call to action ------>
+   
+
+  <section class="cta">
+      
+      <h1>Sign Up For Events From The Comfort Of Your Shack.</h1>
+      <a href="contact.html" class="hero-btn">Contact us</a>
+      
+  </section>
+  
+  <!------- footer ------>
+  <section class="footer">
+      
+      <h4>About us</h4>
+      <p> We are a post nuclear city that you can call home. We offer many events and keep our stats up to date daily.</p>
+      <div class="icons">
+          <i class="fa fa-facebook-square"></i>
+          <i class="fa fa-twitter-square"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-linkedin-square"></i>
+      </div>
+      <p> Made by Dustin Kucinic </p>
+      
+  </section>
+  
+
+   
+<!------- JavaScript for Toggle Menu ------>   
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"; 
+    }
+    
+</script>    
+    
+    
+</body>
+</html>
