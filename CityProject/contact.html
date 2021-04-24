@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Wasteland, Utah</title>
+    
+    <link rel="stylesheet" href="ccstyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/wlogo.png"></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact us!</a></li>   
+               </ul>
+               
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us </h1>
+
+    </section>
+
+<!------- Contacts ------>
+  
+  <Section class="location">
+     
+      <iframe src="https://www.google.com/maps/d/embed?mid=1ndTAG9VRRFeytwaSa4FbwoRXMLp8xSzB" width="640" height="480"></iframe>
+      
+  </Section>
+  
+  <section class="contact-us">
+     
+     <div class="row">
+             <div class="contact-col">
+                 <div>
+                     <i class="fa fa-home"></i>
+                     <span>
+                         <h5> Wasteland, UT</h5>
+                         <p>States of America</p>
+                        </span>
+                 </div>
+                <div>
+                     <i class="fa fa-phone"></i>
+                     <span>
+                         <h5> 1-666-867-5309</h5>
+                         <p>Monday to Saturday, 10am to 6PM</p>
+                     </span>
+                </div>
+                 <div>
+                     <i class="fa fa-envelope-o"></i>
+                     <span>
+                         <h5> info@Wasteland.com</h5>
+                         <p>Email us to set up an event or with questions!</p>
+                     </span>
+                     
+                 </div>
+             </div>
+             
+<div class="contact-col">
+             
+<form action="">
+    <input type="text" placeholder="Enter your name" required>
+    <input type="email" placeholder="Enter your email" required>
+    <input type="text" placeholder="Enter your event interest" required>
+    <textarea rows="8" placeholder="message" required></textarea>
+    <button type="submit" class="hero-btn red-btn" >Send Message</button>
+    </form>
+             
+     </div> 
+     </div>
+     </section>
+
+<!------- footer ------>
+  <section class="footer">
+      
+      <h4>About us</h4>
+      <p> We are a post nuclear city that you can call home. We offer many events and keep our stats up to date daily.</p>
+      <div class="icons">
+          <i class="fa fa-facebook-square"></i>
+          <i class="fa fa-twitter-square"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-linkedin-square"></i>
+      </div>
+      <p> Made by Dustin Kucinic </p>
+      
+      </section>
+
+   
+<!------- JavaScript for Toggle Menu ------>   
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"; 
+    }
+    
+</script>    
+    
+    
+</body>
+</html>
